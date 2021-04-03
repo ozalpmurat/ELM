@@ -13,6 +13,8 @@
 % 
 % Kodların orjinal kaynağı:
 % https://github.com/alanrabelo/Extreme-Learning-Machines/blob/master/main.m
+%
+% Murat Özalp
 
 %% Temizle
 clear variables;

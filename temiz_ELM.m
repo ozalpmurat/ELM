@@ -73,5 +73,5 @@ fprintf('Sin(%4.2f) için gerçek değer ise %4.2f olmalıdır\n',OrnekX, sin(Or
 fprintf('Eğitilen sistem, %%%4.2f hata yapmıştır.\n\n',abs(100*(sin(OrnekX)-OrnekY)))
 
 %% Grafikler
-subplot(3,1,3); plot(X_test,Y_tahmin, 'r.'); hold on; plot(X_test,Y_test, 'b+'); title('MSEArray')
+subplot(3,1,3); plot(X_test,Y_tahmin, 'r.'); hold on; plot(X_test,Y_test, 'b+'); title('Tahmin ve gerçek sin(x) değerleri')
 legend('Tahmin Y','Gerçek Y')

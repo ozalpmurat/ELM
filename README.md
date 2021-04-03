@@ -1,4 +1,6 @@
 # Extreme Learning Machine (ELM) Uygulaması
+Uygulama, Matlab 2020b ve GNU Octave 6.1.0 ile sorunsuz çalışmaktadır.
+
 Tek gizli katmandan oluşan temiz bir Extreme Learning Machine (ELM) yapısı var. Hücre sayısı kod içerisinde belirlenebiliyor. sin(x) verilerini tahmin etmeye çalışan bir ELM yapısı kurgulandı. Dolayısıyla; sınıflandırma değil regresyon yapıyor.
 
 ELM yapısında iterasyon veya geri yayılım gibi işlemler bulunmamaktadır. Giriş ağırlıkları rastgele belirlendikten sonra, gizli katman çıkışındaki β ağırlıkları numerik olarak hesaplanmaktadır. Burada ters matris işlemi için Pseudo-Inverse yöntemi kullanılır. Modelin fit edilmesi (eğitilmesi) sırasında hesaplanan tek parametre, β vektörüdür. Onun dışındaki parametreler, ilk atandığı zamanki gibi kullanılır. İterasyon olmadığı için çok hızlı eğitilen bir YSA türüdür.
